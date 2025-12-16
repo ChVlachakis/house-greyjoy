@@ -1,4 +1,5 @@
 [project]
+<<<<<<< HEAD
 name = "house-greyjoy"
 version = "0.1.0"
 description = "Add your description here"
@@ -12,3 +13,22 @@ dependencies = [
     "pandas>=2.3.3",
     "seaborn>=0.13.2",
 ]
+=======
+name = "project-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+    "pandas>=2.2.3",
+    "matplotlib>=3.9.2",
+    "seaborn>=0.13.2",
+    "jupyter>=1.1.1",
+    "ipykernel>=6.29.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+>>>>>>> 5e8256d8041ca95ba8fc0ea7642ad7c7fdf9ea62
